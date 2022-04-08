@@ -47,7 +47,7 @@ describe('4 - [TELA DE JOGO] Crie um _header_ que deve conter as informações d
   });
 });
 
-describe.only('5 - [TELA DE JOGO] Crie a página de jogo que deve conter as informações relacionadas à pergunta', () => {
+describe('5 - [TELA DE JOGO] Crie a página de jogo que deve conter as informações relacionadas à pergunta', () => {
   const loadQuestionsPage = (spy = true, fetch = fetchMock) => {
     cy.visit('http://localhost:3000/', {
       onBeforeLoad(win) {
